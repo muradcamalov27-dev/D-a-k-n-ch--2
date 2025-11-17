@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodieland - Recipe Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">Foodieland</a>
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#recipes">Recipes</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About us</a>
+                </nav>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank">f</a>
+                    <a href="https://twitter.com" target="_blank">𝕏</a>
+                    <a href="https://instagram.com" target="_blank">📷</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Categories Section -->
+    <section class="categories-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Categories</h2>
+                <a href="#" class="view-all">View All Categories</a>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="icons/breakfast.png" alt="Breakfast">
+                    </div>
+                    <div class="category-name">Breakfast</div>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="icons/vegan.png" alt="Vegan">
+                    </div>
+                    <div class="category-name">Vegan</div>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="icons/meat.png" alt="Meat">
+                    </div>
+                    <div class="category-name">Meat</div>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="icons/dessert.png" alt="Dessert">
+                    </div>
+                    <div class="category-name">Dessert</div>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="icons/lunch.png" alt="Lunch">
+                    </div>
+                    <div class="category-name">Lunch</div>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="icons/chocolate.png" alt="Chocolate">
+                    </div>
+                    <div class="category-name">Chocolate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipes Section -->
+    <section class="recipes-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Simple and tasty recipes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="recipes-grid">
+                <!-- Recipe 1 -->
+                <div class="recipe-card" style="background: linear-gradient(135deg, #f3e5f5, #ede7f6);">
+                    <div class="recipe-image">
+                        <img src="images/recipe1.jpg" alt="Wagyu Beef Cheeseburger">
+                        <button class="like-btn" onclick="this.classList.toggle('liked')">♥</button>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Big and Juicy Wagyu Beef Cheeseburger</h3>
+                        <div class="recipe-meta">
+                            <div class="recipe-author">
+                                <div class="author-avatar"></div>
+                                <span></span>
+                            </div>
+                            <div class="recipe-likes">
+                                <span>⏰43 dk</span>
+                                <span>♥</span>
+                                <span>120</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipe 2 -->
+                <div class="recipe-card" style="background: #2a2a2a; color: white;">
+                    <div class="recipe-image">
+                        <img src="images/recipe2.jpg" alt="Salmon">
+                        <button class="like-btn" onclick="this.classList.toggle('liked')">♥</button>
+                    </div>
+                    <div class="recipe-info">
+                        <h3 style="color: white;">Fresh Lime Roasted Salmon with Ginger Sauce</h3>
+                        <div class="recipe-meta" style="color: #ccc;">
+                            <div class="recipe-author">
+                                <div class="author-avatar"></div>
+                                <span></span>
+                            </div>
+                            <div class="recipe-likes">
+                                <span>♥</span>
+                                <span>95</span>
+                                <span>⏰31 dk</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipe 3 -->
+                <div class="recipe-card" style="background: #3a3a3a; color: white;">
+                    <div class="recipe-image">
+                        <img src="images/recipe3.jpg" alt="Pancakes">
+                        <button class="like-btn" onclick="this.classList.toggle('liked')">♥</button>
+                    </div>
+                    <div class="recipe-info">
+                        <h3 style="color: white;">Strawberry Oatmeal Pancake with Honey Syrup</h3>
+                        <div class="recipe-meta" style="color: #ccc;">
+                            <div class="recipe-author">
+                                <div class="author-avatar"></div>
+                                <span></span>
+                            </div>
+                            <div class="recipe-likes">
+                                <span>⏰23 dk</span>
+                                <span>♥</span>
+                                <span>85</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipe 4 -->
+                <div class="recipe-card" style="background: white;">
+                    <div class="recipe-image">
+                        <img src="images/recipe4.jpg" alt="Salad">
+                        <button class="like-btn" onclick="this.classList.toggle('liked')">♥</button>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Fresh and Healthy Mixed Mayonnaise Salad</h3>
+                        <div class="recipe-meta">
+                            <div class="recipe-author">
+                                <div class="author-avatar"></div>
+                                <span></span>
+                            </div>
+                            <div class="recipe-likes">
+                                <span>⏰43 dk</span>
+                                <span>♥</span>
+                                <span>110</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipe 5 -->
+                <div class="recipe-card" style="background: white;">
+                    <div class="recipe-image">
+                        <img src="images/recipe5.jpg" alt="Meatballs">
+                        <button class="like-btn" onclick="this.classList.toggle('liked')">♥</button>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>Chicken Meatballs with Cream Cheese</h3>
+                        <div class="recipe-meta">
+                            <div class="recipe-author">
+                                <div class="author-avatar"></div>
+                                <span></span>
+                            </div>
+                            <div class="recipe-likes">
+                                <span>⏰43 dk</span>
+                                <span>♥</span>
+                                <span>78</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipe 6 - Promo -->
+                <div class="recipe-card promo">
+                    <h3>Don't forget our healthy food!</h3>
+                    <img src="images/recipe6.jpg" alt="Healthy Food">
+                </div>
+
+                <!-- Recipe 7 -->
+                <div class="recipe-card" style="background: #2a2a2a; color: white;">
+                    <div class="recipe-image">
+                        <img src="images/recipe7.jpg" alt="Pancakes">
+                        <button class="like-btn" onclick="this.classList.toggle('liked')">♥</button>
+                    </div>
+                    <div class="recipe-info">
+                        <h3 style="color: white;">Fruity Pancake with Orange & Blueberry</h3>
+                        <div class="recipe-meta" style="color: #ccc;">
+                            <div class="recipe-author">
+                                <div class="author-avatar"></div>
+                                <span></span>
+                            </div>
+                            <div class="recipe-likes">
+                                <span>⏰53 dk</span>
+                                <span>♥</span>
+                                <span>92</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipe 8 -->
+                <div class="recipe-card" style="background: white;">
+                    <div class="recipe-image">
+                        <img src="images/recipe8.jpg" alt="Chicken Rice">
+                        <button class="like-btn" onclick="this.classList.toggle('liked')">♥</button>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>The Best Easy One Pot Chicken and Rice</h3>
+                        <div class="recipe-meta">
+                            <div class="recipe-author">
+                                <div class="author-avatar"></div>
+                                <span></span>
+                            </div>
+                            <div class="recipe-likes">
+                                <span>⏰30 dk</span>
+                                <span>♥</span>
+                                <span>105</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipe 9 -->
+                <div class="recipe-card" style="background: white;">
+                    <div class="recipe-image">
+                        <img src="images/recipe1.jpg" alt="Pasta">
+                        <button class="like-btn" onclick="this.classList.toggle('liked')">♥</button>
+                    </div>
+                    <div class="recipe-info">
+                        <h3>The Creamiest Creamy Chicken and Bacon Pasta</h3>
+                        <div class="recipe-meta">
+                            <div class="recipe-author">
+                                <div class="author-avatar"></div>
+                                <span></span>
+                            </div>
+                            <div class="recipe-likes">
+                                <span>⏰21 dk</span>
+                                <span>♥</span>
+                                <span>88</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Deliciousness to your inbox</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Your email address..." required>
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="newsletter-decorative left"></div>
+        <div class="newsletter-decorative right"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Foodieland</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="footer-section">
+                    <div class="footer-links">
+                        <a href="#recipes">Recipes</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#about">About us</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <div class="footer-links">
+                        <a href="https://facebook.com">Facebook</a>
+                        <a href="https://twitter.com">Twitter</a>
+                        <a href="https://instagram.com">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">© 2025 Foodieland. Powered by Brix</div>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank">f</a>
+                    <a href="https://twitter.com" target="_blank">𝕏</a>
+                    <a href="https://instagram.com" target="_blank">📷</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
